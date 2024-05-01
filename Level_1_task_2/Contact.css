@@ -1,0 +1,34 @@
+.contact {
+    width: 80vw;
+    margin: auto;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.socialicons a i {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background-color: rgb(2, 2, 30);
+    transition: 0.5s;
+}
+
+.socialicons a i:hover {
+    color: white;
+    transition: 0.5s;
+}
